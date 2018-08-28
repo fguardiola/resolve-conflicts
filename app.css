@@ -44,7 +44,7 @@
     /*background: #d9edf7;
      border-color: #bce8f1;*/
     font-size:14px;
-    color:red;
+    color:#ff0101;
     font-family: 'Montserrat';
     font-weight: 300;
     background: none;
@@ -137,10 +137,6 @@
   padding: 0;
 }
 .bullets li {
-  margin: -1px 1px 1px -1px;
-  border-left: 1px solid #CCCCCC;
-  border-top: 1px solid #CCCCCC;
-  height: 35px;
   overflow: hidden;
 }
 @media (min-width: 768px) {
@@ -167,7 +163,7 @@
     color: #fff;
     line-height: 16px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px;
 }
 @media (min-width: 768px) {
   .bullets .bullet-icon {
@@ -179,8 +175,8 @@
 .bullets .bullet-info {
   color: #666666;
   display: table-cell;
-  font-size: 14.3px;
-  padding-left: 40px;
+  font-size: 14px;
+  padding-left: 37px;
   position: relative;
   vertical-align: middle;
   width: 100%;
@@ -196,17 +192,17 @@
   }
 }
 .bullets .bullet-title {
-  color: black;
-  font-size: 13.2px;
-  font-weight: bold;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 600;
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .bullets .bullet-title {
     font-size: 14px;
     text-transform: uppercase;
     line-height: 16px;
   }
-
+*/
 }
 .owl-carousel .owl-dots span {
   background-color: #0e668f;
@@ -330,10 +326,7 @@ a.as-text-off:hover {
 .anchors-index ul > li > ul {
   padding-left: 16px;
 }
-.btn {
-  border-width: 1px;
-  border-radius: 5px;
-}
+
 .btn.btn-primary {
   background-color: #009fd8;
   border-color: #0e668f;
@@ -358,10 +351,6 @@ a.as-text-off:hover {
   background-color: #d43f3a;
   border-color: #666666;
   color: #fff;
-  border-radius: 0;
-  border: none;
-  text-transform:uppercase;
-  font-weight:300;
 }
 .btn.btn-danger:hover {
   background-color: #d9534f;
@@ -379,9 +368,10 @@ a.as-text-off:hover {
   color: #fff;
 }
 .btn.btn-parapharma {
-  background-color: orangered;
-  border-color: #0E6993;
-  color: #fff;
+    background-color: #dd1278;
+    color: #fff;
+    width: 260px;
+    height: 50px;
 }
 .btn.btn-parapharma span.fa-shopping-cart{
   display:none;
@@ -403,9 +393,6 @@ a.as-text-off:hover {
   background-color: #8ac140;
   border-color: #7caf39;
   color: #fff;
-}
-.btn-group-vertical-spaced .btn {
-  margin: 5px auto;
 }
 .product-prices {
   font-size: 16.5px;
@@ -526,8 +513,8 @@ a.as-text-off:hover {
   color: #d43f3a;
 }
 .price-data-lg {
-    font-size: 33px;
-    font-weight: 700;
+    font-size: 38px;
+    font-weight: 600;
     letter-spacing: -0.04em;
     color: #00a0d5;
     margin-top: 50px;
@@ -573,7 +560,6 @@ a.as-text-off:hover {
 .order-table-gross .product-rows {
   border-top: 1px solid #777777;
   margin-bottom: 50px;
-  padding-top:20px;
 }
 .order-table-gross .product-row {
   border-bottom: none;
@@ -738,16 +724,18 @@ label {
   margin-bottom: 5px;
 }
 .input-quantity {
-  display: inline;
+    position: relative;
+    top: -86px;
+    float: right;
 }
 .input-quantity input {
-  box-sizing: content-box;
-  display: inline-block;
-  font-size: 16.5px;
-  height: 1.5em;
-  padding: 5px 0;
-  text-align: center;
-  width: 3em !important;
+    box-sizing: content-box;
+    height: 26px;
+    padding: 0;
+    text-align: center;
+    width: 38px !important;
+    position: relative;
+    top: -3px;
 }
 .input-quantity .control {
   font-size: 12.1px;
@@ -816,9 +804,8 @@ label {
   transition: 0.3s all ease-out;
 }
 .label-group-dinamic-bordered.fx-checked {
-    background: #eee;
-    border-color: #cad3d5;
-    border-width: 1px;
+  background: #dcf2fc;
+  border-color: #009fd8;
 }
 
 
@@ -1016,11 +1003,8 @@ a.icon-right:hover {
   margin-bottom: -10px;
 }
 .separator.separator-upper {
-  border-top: 1px dotted #009fd8;
   margin-top: 10px;
   padding-top: 10px;
-  background: none;
-  display: none;
 }
 .inline {
   display: inline;
@@ -1045,10 +1029,6 @@ a.icon-right:hover {
   border: 1px solid #dcf2fc;
   border-radius: 16px;
   padding: 20px 32px;
-}
-.well-box.custom-well-box{
-  background: white;
-  border: none;
 }
 .rounded-box,
 .rounded-box-md,
@@ -1133,11 +1113,11 @@ a:hover .rounded-box-xl,
   background: #fff;
 }
 .section-list li {
- /* border-top: 1px solid #dcf2fc; */
+  border-top: 1px solid #dcf2fc;
   padding: 5px 10px;
 }
 .section-list li.active {
-  background:#dcf2fc;
+  background: #dcf2fc;
 }
 .section-list li.active a {
   font-weight: bold;
@@ -1217,7 +1197,7 @@ dl.inline-sm dd,
 dl.inline-md dd,
 dl.inline-lg dd {
   margin: 0;
-  padding: 5px 0;
+  padding: 5px 10px;
 }
 @media (min-width: 768px) {
   dl.inline dt,
@@ -1230,7 +1210,7 @@ dl.inline-lg dd {
   dl.inline dt,
   dl.inline-sm dt {
     clear: both;
-    text-align: left;
+    text-align: right;
     font-weight: bold;
   }
   dl.inline dl,
@@ -1247,7 +1227,7 @@ dl.inline-lg dd {
   }
   dl.inline.break-4 dt,
   dl.inline-sm.break-4 dt {
-    /*width: 25%;*/
+    width: 25%;
   }
   dl.inline.break-4 dd,
   dl.inline-sm.break-4 dd {
@@ -1476,7 +1456,8 @@ dl.dt-as-icons dd {
     float: right;
   }
   .social-links.pull-right-xs {
-    float: left;
+    width: 100%;
+    display: block;
   }
 
 }
@@ -2666,9 +2647,6 @@ footer nav .box a, footer nav .title, footer nav .call-schedule{
     margin-bottom: 12px;    
     overflow: hidden;
 }
-.payment-li {
-    height: 45px;
-}
 .aviso-siguenos{
   color: #fff;
   text-transform: uppercase;
@@ -2727,19 +2705,20 @@ footer nav .box a, footer nav .title, footer nav .call-schedule{
 }
 
 .main-content.container .main.home .section:nth-child(1){
-  display:flex;
-  flex-wrap: wrap;
+    width: 74.5%;
+    display: inline-block;
+}
+.main-content.container .main.home .section:nth-child(2){
+    display: inline-block;
+    width: 24.5%;
 }
 
 .main.home .section .content{
-  width: 25%;
   padding-left: 10px;
 }
 
-.main.home .section .content ul{
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+.main.home .section .content ul {
+    height: 337px;
 }
 
 
@@ -2752,7 +2731,6 @@ footer nav .box a, footer nav .title, footer nav .call-schedule{
   }
   .main.home .section .content ul li{
     height: auto;
-    padding: 5px;
   }
   .bullets .bullet-icon{
     top: 0%;
@@ -2763,9 +2741,7 @@ footer nav .box a, footer nav .title, footer nav .call-schedule{
 }
 
 
-.owl-carousel{
-  width: 75%;
-}
+
 
 @media (max-width: 767px) {
   .owl-carousel{
@@ -3011,14 +2987,6 @@ footer nav li:nth-child(2) .title,
 footer nav li:nth-child(3) .title {
 	margin-bottom:20px;
 }
-/*NEEDS TO BE REMOVED ONCE WE CAN IMPORT THE IMPEX FILE CONTAINING THE NECESSARY CODE //START */
-.bullets .col-xs-6.col-md-4 .bullet .bullet-icon .fa {
-	display:block;
-	text-indent:-9999px;
-	height:88px;
-	width:88px;
-	background-size: 100% !important;
-}
 .bullets .col-xs-6.col-md-4:first-child .bullet .bullet-icon .fa {
 	background:url(/_ui/desktop/common/images/home/home-icon-location.png) 0 0 transparent scroll no-repeat;
 }
@@ -3034,9 +3002,11 @@ footer nav li:nth-child(3) .title {
 .bullets .col-xs-4.col-md-4 .bullet .bullet-icon .fa {
 	display:block;
 	text-indent:-9999px;
-	height:88px;
-	width:88px;
+	height:86px;
+	width:86px;
 	background-size: 100% !important;
+	left: 4px;
+    position: relative;
 }
 .bullets .col-xs-4.col-md-4:first-child .bullet .bullet-icon .fa {
 	background:url(/_ui/desktop/common/images/home/home-icon-location.png) 0 0 transparent scroll no-repeat;
@@ -3046,24 +3016,19 @@ footer nav li:nth-child(3) .title {
 }
 .bullets .col-xs-4.col-md-4:last-child .bullet .bullet-icon .fa {
 	background:url(/_ui/desktop/common/images/home/home-icon-clock.png) 0 0 transparent scroll no-repeat;
-	position: relative;
-    left: 4px;
 }
 .main.home .section:nth-child(4) .owl-carousel.owl-theme.owl-loaded.owl-drag .owl-item.active {
     height: 390px;
     margin: 0 0.2%;
     border: 1px solid #666;
     box-sizing: border-box;
-    width: 19.7% !important;
+    width: 19.4% !important;
 }
 @media screen and (min-width:767px) {
 	.main.home .section:nth-child(4) .owl-carousel.owl-theme.owl-loaded.owl-drag .owl-item.active {
-	    height: 351px;
-	    margin: 0 1.6%;
+	    margin: 0 0.4%;
 	    border: 1px solid #666;
-	    width: 38.3% !important;
 	    position: static;
-	    margin-top: 39px;
 	}
 }
 .main.home .section:nth-child(4) .owl-carousel.owl-theme.owl-loaded.owl-drag .owl-item.active:first-child {
@@ -3236,188 +3201,23 @@ footer nav li:nth-child(3) .title {
 }
 
 
-
 .my-account-nav{
-  border: 1px solid #666665;
+  border:1px solid #666665;
   margin-bottom: 10px;
-  border-radius: 5px;
 }
 .section-title.section-title-alt.my-account-title{
-  background-color: #04A0DD;
+  background-color: #06a0de;
   color: white;
-  margin: 0px;
-  border: 1px solid #04A0DD;
-  border-radius: 4px;
-}
-.account-sections{
-  border-bottom: 1px solid #04A0DD;
-  margin: 4px;
-  padding: 0px;
-}
-li.account-sections:last-child {
-  border-bottom: none;
+  padding: 0;
+  border: 1px solid #06a0de;
+  border-radius: 25px;
 }
 
-.account-menu-title{
-  color:#04A0DD; 
-  margin-top:50px;
-}
 
-h1.account-menu-title + .lead{
-  font-weight: 500;
-  color: #666666;
-  font-size: 16px;
-  margin: 10px 5px;
-  letter-spacing: normal;
-}
-
-.template-pages-account-accountLayoutPage .breadcrumb{
-  display: none;
- }
- .template-pages-account-accountLayoutPage .my-account-nav {
-   margin-top:50px;
- }
-
-
- .template-pages-account-accountLayoutPage .separator.separator-upper {
-   display: block;
-   border-top: 1px solid #009fd8;
- }
-
- .template-pages-account-accountLayoutPage .separator.separator-upper h2{
-    color:#04A0DD;
-   
- }
- .template-pages-account-accountLayoutPage .separator.separator-upper.default-address{
-   border: none;
-   margin-bottom: 15px;
- }
-
- .btn.btn-profile{
-  padding: 5px 20px;
-  background-color: #009fd8;
-  border-color: #0e668f;
-  color: #fff;
-  border-radius: 0;
-  border: none;
-  background-color: rgb(128, 128, 124);
- }
-
- .btn.btn-account{
-  padding: 5px 20px;
-  background-color: #009fd8;
-  border-color: #0e668f;
-  color: #fff;
-  border-radius: 0;
-  border: none;
-  background-color: rgb(128, 128, 124);
- }
- .btn.btn-blue{
-  padding: 5px 20px;
-  border-color: #0e668f;
-  color: #fff;
-  border-radius: 0;
-  border: none;
-  background-color: #009fd8;
- }
-/* Edit address specifics */
-.page-add-edit-address .separator.separator-upper{
-  border: none;
-}
-
-.page-add-edit-address .input-required.corp{
-  color: red;
-}
-
-.no-margin-sides {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.no-padding-sides{
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.is-required-mark{
-  color: red;
-}
 .menu-item.dropdown.user-account {
     top: -25px;
     left: 16px;
 }
-/*FAQS*/
-.faq-nav{
-  border: 1px solid #666665;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  padding: 0;
-  margin-top: 50px;
-}
-.faq-nav .content .title{
-  background-color: #04A0DD;
-  color: white;
-  margin: 0px;
-  border: 1px solid #04A0DD;
-  border-radius: 4px;
-  text-transform: uppercase;
-  font-size: 16.5px;
-  font-weight: 700;
-  padding: 5px 10px;
-  text-align: center;
-}
-.faq-nav .content ul{
-  background-color: white;
-  padding: 10px;
-  list-style: none;
-  color: #04A0DD;
-}
-.faq-nav li a{
-  color: #04A0DD;
-}
-.faq-nav .content ul ul li:before {
-  content: '-';
-  position: absolute;
-  margin-left: -8px;
-  color:  #04A0DD;
-}
-
-.page-faq .content h2,
-.page-faq .content h3,
-.page-LegalFarmacia .content h2, 
-.page-LegalFarmacia .content h3{
-  color: #04A0DD;
-}
-.page-faq .content h2:first-of-type{
-  margin-top: 0;
-}
-.page-faq .content:first-of-type h1{
-  display:none;
-}
-.page-faq .content ul{
-  padding-left: 20px;
-}
-.page-faq .breadcrumb, .page-LegalFarmacia .breadcrumb{
-  display:none;
-}
-.page-faq .row .content, .page-LegalFarmacia .row .content{
-  margin-top: 50px;
-}
-
-.page-faq .row .faq-nav .content,
-.page-LegalFarmacia .row .faq-nav .content{
-  margin-top: 0px;
-}
-/*Legal*/
-.page-faq pre,
-.page-LegalFarmacia pre{
- border:none;
- font-family: Montserrat;
- font-size: 15.4px;
- padding: 0;
- color: #333333;
-}
-
 .main-categories {
     margin-top: 40px;
 }
@@ -3435,12 +3235,14 @@ h1.account-menu-title + .lead{
 .main-categories .category-wrapper:last-child .title {
 	text-align:right;
 	display:block
-	
 }
 .yellowTxt {
 	color:rgb(246,179,37);
 }
-
+.preheader-top + .container .nav.pull-right .menu-item:nth-child(3) {
+    top: -30px;
+    text-align: right;
+}
 
 /* HEADER MOBILE VERSION */
 @media screen and (max-width: 767px) {
@@ -3451,7 +3253,7 @@ h1.account-menu-title + .lead{
 	    height: 49px;
 	}
 	.header-intro .content {
-	    top: 142px;
+	    top: 137px;
 	}
 	.btn-search:after {
 	    top: 8px;
@@ -3498,136 +3300,98 @@ h1.account-menu-title + .lead{
 	    height: auto;
 	    width: 26px;
 	    position: relative;
-	    top: -157px;
+	    top: -148px;
 	    left: 12px;
 	}
 	.preheader .nav .menu-item > a .fa {
 	    font-size: 26px;
 	    position: relative;
-	    top: 22px;
-	    left: -32px;
+	    top: 53px;
+	    left: -27px;
 	    color: #666;
 	}
 	.main.home .section .content ul {
 	    height: 80px;
 	    display: inline-block;
 	}
-	.bullets li {
-	    width: 31.3333333%;
-	    border-radius: 10px;
+	.bullets {
+	    height: 70px;
 	}
 	.bullets li:nth-child(2) {
 	    margin: 0 3%;
 	}
+	.bullets .col-xs-4.col-md-4 {
+		border-radius: 10px;
+	    margin: 0 2px;
+	    width: 32.33333333333333%;
+        height: 70px !important;
+	}
 	.bullets .col-xs-4.col-md-4 .bullet .bullet-icon .fa {
-	    height: 50px;
-	    width: 50px;
-	    left: -10px;
+        height: 34px;
+	    width: 34px;
+	    left: 0px;
+	    top: 17px;
 	    position: relative;
 	}
 	.bullets .bullet-title {
-	    font-size: 10px;
-	    line-height: 12px;
+	    font-size: 9px;
+	    line-height: 10px;
+	    font-weight: 700;
+	    letter-spacing: normal;
+	}
+	.bullet .bullet-info .hidden-xs {
+	    color: #fff;
+	    line-height: 10px;
+	    font-weight: 500;
+	    font-size: 9px;
+	}
+	.main-content.container .main.home .section:nth-child(1),
+	.main-content.container .main.home .section:nth-child(2) {
+		width:100%;
+	}
+	.header-group .brand-logo a {
+	    max-width: 236px;
+	}
+	.main.home .section:nth-child(4) .owl-carousel.owl-theme.owl-loaded.owl-drag .owl-item.active {
+	    margin: 0 1.1%;
+	    width: 38.9% !important;
 	}
 }
 
 
-.no-padding-sides{
-  padding-left: 0;
-  padding-right: 0;
+/* RULES AND CLASSES ADDED FOR PRODUCT PAGE ______________________________________________________ */
+.input-quantity .form-control {
+    font-size: 17px;
+    border: none;
+    box-shadow: none;
+    font-weight: 500;
 }
-
-.is-required-mark{
-  color: red;
-}
-
-/* CARRITO DE COMPRA */
-.page-cartPage .well-box {
-    border: 1px solid #535353;
-    padding: 0 10px;
-    border-radius: 10px;
-}
-.page-cartPage .well-box fieldset legend {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    color: #666;
-    font-size: 16px;
-    padding: 20px 10px;
-    text-transform: uppercase;
+.btn-change-numeric-spinner {
+    background-color: #aeaead;
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    margin: 0 !important;
     text-align: center;
-    display: block;
-    margin-bottom: 15px;
+    line-height: 28px;
+    font-size: 18px !important;
+    color: #FFF;
 }
-.page-cartPage .well-box .section-title.section-title-parapharma {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 24px;
-    color: #666665;
-    background-color: #cad3d5;
-    text-align: center;
-    width: calc(100% + 22px);
-    margin: -20px -11px 5px;
-    border-radius: 10px;
-    padding: 15px;
-    height:auto;
+#addToCartForm {
+    float: right;
+    width: 262px;
 }
-.page-cartPage .well-box form fieldset legend {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 24px;
-    color: #666665;
-    background-color: #cad3d5;
-    text-align: center;
-    width: calc(100% + 22px);
-    margin: -20px -11px 5px;
-    border-radius: 10px;
-    padding: 15px;
-    height: auto;
+#addToCartButton {
+    position: relative;
+    top: -20px;
 }
-.section-content.section-content-alt {
-    background-color:transparent;
-    
+#addToCartButton:after {
+	content:"";
+	display:block;
+	height:20px;
+	width:20px;
+	background:url('../images/ico-cart-white.png') 0 0 no-repeat scroll transparent;
 }
-.page-cartPage .as-label {
-    text-transform:uppercase;
-    font-size: 13px;
-    display: block;
-    text-align: center;
-    color:#666;
+#addToCartButton .fa-cart-arrow-down {
+    display: none;
 }
-.row.marg-ver-20 {
-    margin:20px 0;
-}
-label[for=vouchercode] {
-    text-transform: uppercase;
-    margin-right: 15px;
-    font-size: 16px;
-}
-.btn.btn-default.btn-blue {
-    background-color:#04A0DD;
-    color:#fff;
-    border-radius:0;
-    border:none;
-    font-weight: 300;
-    padding: 6px 15px;
-}
-.page-cartPage .product-row-form {
-    border-bottom: 1px solid #9dd9f5;
-}
-@media screen and (max-width: 1199px){
-    .label-group-dinamic-bordered {
-        text-align:center;
-    }
-}
-@media screen and (max-width: 767px) {
-    .page-cartPage .product-row-form {
-        padding-bottom:20px;
-    }
-    .page-cartPage .info-stock-separator {
-        margin: 0 auto;
-        width: 120px;
-    }
-}
-
